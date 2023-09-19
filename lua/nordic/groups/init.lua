@@ -25,6 +25,7 @@ M.integrations = {
     'lazy',
     'lsp_signature',
     'ministatusline',
+    'headlines',
 }
 
 M.native = {
