@@ -8,7 +8,7 @@ return {
     Headline5 = { fg = C.magenta.base, bg = C.gray2, bold = true },
     Headline6 = { fg = C.white1, bg = C.gray2, bold = true },
 
-    Quote = { fg = C.gray2 },
+    Quote = { fg = C.cyan.base },
     CodeBlock = { bg = C.gray2 },
     Dash = { fg = C.gray4, bold = true },
 }
