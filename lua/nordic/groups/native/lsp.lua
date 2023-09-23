@@ -17,11 +17,11 @@ return {
     DiagnosticInfo = { fg = C.info }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     DiagnosticHint = { fg = C.hint }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
 
-    DiagnosticVirtualTextError = { bg = C.gray1, fg = C.error, bold = true }, -- Used for "Error" diagnostic virtual text
-    DiagnosticVirtualTextWarn = { bg = C.gray1, fg = C.warning }, -- Used for "Warning" diagnostic virtual text
-    DiagnosticVirtualTextWarning = { bg = C.gray1, fg = C.warning }, -- Used for "Warning" diagnostic virtual text
-    DiagnosticVirtualTextInfo = { bg = C.gray1, fg = C.info }, -- Used for "Information" diagnostic virtual text
-    DiagnosticVirtualTextHint = { bg = C.gray1, fg = C.hint }, -- Used for "Hint" diagnostic virtual text
+    DiagnosticVirtualTextError = { bg = C.none, fg = C.error, bold = true }, -- Used for "Error" diagnostic virtual text
+    DiagnosticVirtualTextWarn = { bg = C.none, fg = C.warning }, -- Used for "Warning" diagnostic virtual text
+    DiagnosticVirtualTextWarning = { bg = C.none, fg = C.warning }, -- Used for "Warning" diagnostic virtual text
+    DiagnosticVirtualTextInfo = { bg = C.none, fg = C.info }, -- Used for "Information" diagnostic virtual text
+    DiagnosticVirtualTextHint = { bg = C.none, fg = C.hint }, -- Used for "Hint" diagnostic virtual text
 
     DiagnosticUnderlineError = { undercurl = true, sp = C.error }, -- Used to underline "Error" diagnostics
     DiagnosticUnderlineWarn = { undercurl = true, sp = C.warning }, -- Used to underline "Warning" diagnostics
